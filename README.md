@@ -1,1 +1,1 @@
-# projeto Starbur feito em java
+# Jogo Starburst feito em java
