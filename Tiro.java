@@ -12,7 +12,7 @@ public class Tiro {
     public Tiro(int x, int y) {
         this.x = x;
         this.y = y;
-        this.velocidade =  5;
+        this.velocidade =  4;
     }
     public void mover() {
         this.y -= velocidade;
@@ -25,6 +25,6 @@ public class Tiro {
 
     public boolean getPosY() {
         return y < 0;
-    }
+    }// verifica se o tiro saiu da tela
 
 }

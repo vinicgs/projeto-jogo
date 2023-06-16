@@ -31,15 +31,11 @@ public class Nave {
         if (this.x < 0) {
             this.x = 0;
         }
-        if (this.x > 600 - 55) {
-            this.x = 600 - 55;
+        if (this.x > Principal.LARGURA_TELA - 55) {
+            this.x = Principal.LARGURA_TELA - 55;
         }
     }
 
-    public void resetPosition() {
-        this.x = 300;
-        this.y = 400;
-    }
 
 }
 
